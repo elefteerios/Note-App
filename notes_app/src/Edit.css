@@ -1,0 +1,97 @@
+.edit {
+  max-width: none;
+}
+.nothing {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.element_left {
+  width: 120px;
+  min-width: 0;
+  background-color: #1264a3;
+  margin-right: 0px;
+}
+.element_left:last-child {
+  background-color: #71cf48;
+}
+.element_right {
+  width: 32px;
+  min-width: 0;
+  background-color: #1264a3;
+  margin-left: 0px;
+}
+.nothing_container {
+  display: flex;
+}
+.edit_field {
+  width: 100%;
+  height: calc(100% - 80px);
+}
+.edit_line {
+  width: auto;
+  margin: 0 20px;
+}
+.edit_title > input {
+  border: none;
+  width: 100%;
+  font-weight: 600;
+}
+.edit_title {
+  border: none;
+  margin: 20px;
+}
+.edit_text {
+  width: calc(100% - 40px);
+  margin: 20px;
+  height: calc(100% - 130px);
+}
+.edit_text > textarea {
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+.delete_btn {
+  background-color: #fe4c4a;
+  width: 150px;
+}
+.delete_line {
+  background-color: #eb4345;
+  margin: 9px;
+}
+.delete_btn:hover {
+  background-color: #eb4345;
+}
+.delete_btn:hover .delete_line {
+  background-color: #fe4c4a;
+}
+.save_btn {
+  width: 150px;
+  border: none;
+}
+.save_btn > div {
+  font-size: 16px;
+}
+.save_btn:hover {
+  background-color: #68c142;
+}
+.save_btn:hover .sava_line {
+  background-color: #71cf48;
+}
+.sava_line {
+  margin: 9px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.form {
+  width: 100%;
+  height: 100%;
+}
+.btn_right {
+  justify-content: right;
+}

@@ -1,0 +1,83 @@
+.notes {
+  background: #ffffff;
+  width: 100%;
+  cursor: pointer;
+}
+.notes > p {
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
+}
+.note {
+  width: 80%;
+  max-width: none;
+  min-width: 400px;
+  overflow: hidden;
+}
+.horizontal-line {
+  background-color: #efefef;
+  height: 1px;
+  margin: 8px 0px;
+  width: 100%;
+}
+.bar {
+  overflow: hidden;
+}
+.bar:hover {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.note_create_search {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search {
+  height: 30px;
+  width: 100%;
+  background-color: #fcfcfc;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+  max-width: 252px;
+  cursor: pointer;
+}
+.search:hover {
+  border: 1px solid #323338;
+}
+.fa-magnifying-glass {
+  cursor: pointer;
+  padding: 9px;
+}
+.search > input[type="search"] {
+  background-color: #fcfcfc;
+  border: none;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+.search > input[type="search"]::placeholder {
+  color: #eaeaea;
+  font-size: 16px;
+}
+.search > input[type="search"]:focus,
+.edit_text > textarea:focus,
+.edit_title > input:focus {
+  outline: none;
+}
+.create-note {
+  max-width: 218px;
+}
+.title {
+  font-weight: 600;
+}
+.active_note {
+  background-color: #eff4ff;
+}

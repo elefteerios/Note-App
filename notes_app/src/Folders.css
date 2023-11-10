@@ -1,0 +1,120 @@
+.folder {
+  background: #ffffff;
+  width: 100%;
+  max-width: 260px;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0px 1px 4px 0px #00000029;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.create-category {
+  background-color: #71cf48;
+  font-weight: 400;
+  color: #ffffff;
+  width: calc(100% - 18px);
+  height: 32px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  min-width: 170px;
+  user-select: none;
+}
+.create-category > p {
+  margin: auto;
+}
+.fa-plus,
+.fa-trash,
+.fa-check {
+  margin: 9px;
+}
+.vertical-line {
+  width: 1.34px;
+  background-color: #68c142;
+  height: 100%;
+}
+.category_list {
+  background-color: #1264a3;
+}
+.category {
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.category::-webkit-scrollbar-track {
+  margin-block: 0.4em;
+}
+.category::-webkit-scrollbar {
+  width: 5px;
+}
+.category::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #1f2a44;
+}
+div.category_list:first-child {
+  margin-top: 0;
+}
+
+.fa-folder {
+  margin: 10px;
+  font-size: 27px;
+}
+
+.fa-caret-down {
+  margin: 17px;
+  font-size: 17.9px;
+}
+.catefory_name {
+  flex: 1;
+  font-size: 14px;
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.active {
+  background-color: #f8f8fa;
+  color: #323338;
+  box-shadow: 0px 1px 4px 0px #00000029;
+}
+.block_cursor {
+  pointer-events: none;
+}
+.categoryBtn {
+  background-color: #ffffff;
+}
+.categoryBtn > input {
+  background-color: #f5f5f7;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  padding-left: 8px;
+  outline: none;
+  margin: 8px;
+  margin-right: 0px;
+}
+.categoryBtn > input:hover {
+  outline: 1px solid #323338;
+}
+.categoryBtn > input::placeholder {
+  padding: 5px;
+  color: #e0e0e1;
+  font-size: 16px;
+  user-select: none;
+}
+.categoryBtn > svg {
+  margin: 0px;
+  padding: 5px;
+  margin-left: 6px;
+  background-color: #71cf48;
+  border-radius: 5px;
+  width: 24px;
+}
+#x {
+  background-color: #fe4c4a;
+}
